@@ -7,7 +7,7 @@ The RGBStrip class is based on [RGBLed by wilmouths](https://github.com/wilmouth
 
 <div align="center">
   <figure>
-  <img src="./rainbow.gif" alt="Rainbow effect" title="Rainbow"/>
+  <img src="./rainbow.gif" alt="Rainbow effect" title="Rainbow"/><br>
   <figcaption>Rainbow effect using RGBStrip</figcaption>
   </figure>
 </div>
@@ -15,6 +15,7 @@ The RGBStrip class is based on [RGBLed by wilmouths](https://github.com/wilmouth
 ## Installing
 
 [Using Arduino IDE](https://www.arduino.cc/en/Guide/Libraries)
+
 [Using PlatformIO](https://www.youtube.com/watch?v=EBlHNBNHESQ)
 
 ## Usage
