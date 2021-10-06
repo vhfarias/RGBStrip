@@ -2,7 +2,7 @@
 
 RGBStrip can be used to control 2835 and 5050 non-addressable LED strips using an ESP-8266 microcontroller and three output pins, assuming a common anode setup.
 
-The RGBStrip class is based on [RGBLed by wilmouths](https://github.com/wilmouths/RGBLed) with the addition of some presets and intends to to be nonblocking using a different approach (_millis()_ function instead of _delay()_ and number of steps as argument).
+The RGBStrip class is based on [RGBLed by wilmouths](https://github.com/wilmouths/RGBLed) with the addition of some presets and intends to be nonblocking using a different approach (_millis()_ function instead of _delay()_ and number of steps as argument).
 
 
 <div align="center">
@@ -77,13 +77,13 @@ strip.shift(redStart, greenStart, blueStart, redEnd, greenEnd, blueEnd, time);
 
 #### rainbow
 ```C++
-strip.rainbow(totalTime);
+strip.rainbow(shiftTime);
 ```
   Shifts between all the colors of the rainbow.
 
 #### siren
 ```C++
-strip.siren(totalTime);
+strip.siren(shiftTime);
 ```
   Shifts between full red and full blue, creating a police siren effect.
 
